@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+html { scroll-behavior: smooth; } 
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: rgb(240, 240, 240);
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: linear-gradient(51deg, rgba(26,34,47,1) 32%, rgba(102,116,139,1) 73%, rgba(87,120,172,1) 100%);
+  }
+
+
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+/* SideBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(27,35,46);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Sidebar links */
+.sidetxt{
+    display: block;
+    color: white !important;
+    padding: 16px;
+    text-decoration: none;
+    margin: 50px 0;
+}
+
+.me {
+    width: 115px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.sidebar p {
+    color: white;
+    font-size: small;
+}
+
+.public {
+    color: white;
+    margin: 5px;
+}
+
+.public:hover {
+    transform: rotate(720deg);
+    transition: all 1.3s ease-in-out;
+    -webkit-transition: all 1.3s ease-in-out;
+    -moz-transition: all 1.3s ease-in-out;
+}
+
+/* Links on mouse-over */
+.sidetxt:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    transform: scale(1.3);
+}
+
+.download{
+    display: block;
+    color: white !important;
+    padding: 16px;
+    text-decoration: none;
+    margin: 50px 0;
+}
+.download:hover {
+    animation: bounce 2.5s infinite; 
+   -webkit-animation: bounce 2.5s infinite; 
+   -moz-animation: bounce 2.5s infinite; 
+   -o-animation: bounce 2.5s infinite; 
+}
+
+
+/* HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: grid;
+    background-color: rgb(27,35,46);
+    grid-template-areas: "logo burger" "nav nav";
+    z-index: 1;
+}
+
+.me2 {
+    margin: 10px 5px 10px 20px;
+    width: 75px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.Burger {
+    color: white;
+    margin: 0 20px 0 0;
+    justify-self: end;
+    font-size: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.Burger:hover {
+    transform: scale(1.3);
+}
+
+.Burger:active {
+    color: gray;
+}
+
+.head a:hover:not(.active) {
+    color: white;
+    transform: scale(1.3);
+}
+
+
+.head {
+    grid-row-gap: 20px;
+    padding: 30px 0;
+    background: rgb(27,35,46);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: 5px;
+    top: 105px;
+    width: 110px;
+    text-align: center;
+}
+
+.head {
+    display: grid;
+
+}
+.head a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Animation-enter {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  .Animation-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 350ms, transform 350ms;
+  }
+  .Animation-exit {
+    opacity: 1;
+  }
+  .Animation-exit-active {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 350ms, transform 350ms;
+  }
+  
+
+/* ABOUT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#about {
+    margin-left: 200px;
+    padding: 100px 100px;
+    color: white;
+}
+
+#about h1 {
+    font-size: 50px;
+    text-align: center;
+}
+#about p {
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+
+}
+.traits {
+    text-align: center;
+}
+
+.traits div{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+
+.traits img,
+.traits p {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* SKILS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#skills-container {
+    background: azure;;
+    margin-left: 200px;
+    padding: 100px;
+}
+.skills .outer{
+    margin-left: 13%;
+}
+
+.skills h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.outer {
+    width: 75%;
+    height: 25px;
+    background-color: lightgray;
+    margin: 15px 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    /* -webkit-animation: slideIn 2s forwards;
+    -moz-animation: slideIn 2s forwards;
+    animation: slideIn 2s forwards; */
+}
+
+/* @-webkit-keyframes slideIn {
+    0% {
+      transform: translateX(900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      transform: translateX(900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(900px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+
+
+
+.inner {
+    position: relative;
+}
+
+.inner p {
+    position: absolute;
+}
+
+.skilllogo {
+    position: absolute;
+    width: 25px;
+    margin-left: -30px;
+    margin-bottom: -5px;
+}
+
+
+/* Portfolio!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#projects {
+    margin-left: 200px;
+    text-align: center;
+    background-color: white;
+    padding: 100px 5px;
+}
+
+#projects h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.card:hover {
+cursor: pointer;
+transform: perspective(700px) rotateX(25deg) ;
+transition: all .2s ease-in-out;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+/* transform: perspective(2000px) rotateX(50deg) rotateY(5deg) rotateZ(5deg); */
+}
+
+.projimg {
+    width:100%;
+}
+
+.iconflip {
+    animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
+/* footer */
+
+.thefooter {
+    margin-left: 200px;
+}
+
+/* On screens that are less than 620px wide, make the sidebar into a topbar */
+@media screen and (max-width: 620px) {
+   /* each section/component will get margin left 0 */
+   .sidebar {
+    display: none;
+}
+/* about */
+    #about {
+        margin-left: 0;
+        padding: 150px 10px 10px 10px;
+    }
+    #about h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .traits img {
+        width: 75px;
+    }
+/* skills */
+    #skills-container {
+        margin-left: 0;
+        padding: 50px 10px 50px 10px;
+    }
+
+    /* portfolio */
+    #projects {
+        margin-left: 0;
+        /* padding-right: 20px; */
+    }
+
+    .thefooter {
+        margin-left: 0px;
+    }
+
+
+}
+/* on screens that are less than 621px wide */
+@media screen and (min-width: 621px) {
+    .Header {
+        display: none;
+    }
+
+}
