@@ -30,12 +30,12 @@ const About = () => {
                         trait="Hardworking"
                     />
                     <Traits 
-                        time="2000"
+                        time="1500"
                         image={efficient}
                         trait="Efficient"
                     />
                     <Traits 
-                        time="3000"
+                        time="2000"
                         image={motivated}
                         trait="Motivated"
                     />

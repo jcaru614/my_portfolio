@@ -2,7 +2,7 @@ import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 const SkillBar = (props) => {
     return (
-        <ScrollAnimation animateIn='flipInX' delay={500}>
+        <ScrollAnimation animateIn='flipInX' delay={200}>
         <div className="outer">
         <img className="skilllogo" src={props.logo} alt=""/>
             <div className="inner" style={{ width: props.width, height: '25px', backgroundColor: 'rgb(255, 187, 0)', borderRadius: '5px' }}>

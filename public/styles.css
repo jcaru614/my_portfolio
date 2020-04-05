@@ -110,6 +110,7 @@ h1, h2, h3 ,h4, h5, h6 {
     width: 75px;
     border-radius: 100px;
     border: 3px solid white;
+    z-index: 1;
 }
 
 .Burger {
@@ -120,6 +121,7 @@ h1, h2, h3 ,h4, h5, h6 {
     border: none;
     background: none;
     outline: none;
+    z-index: 1;
 }
 
 .Burger:hover {
@@ -301,21 +303,64 @@ h1, h2, h3 ,h4, h5, h6 {
     margin-bottom: 50px;
 }
 
+.card {
+    background-color: rgb(27,35,46);
+    color: white;
+    width: 300px;
+    height: 450px;
+    margin: 3%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    position: relative;
+    box-shadow: 20px 30px 20px rgb(138, 137, 137);
+    padding: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
 .card:hover {
-cursor: pointer;
-transform: perspective(700px) rotateX(25deg) ;
-transition: all .2s ease-in-out;
--webkit-transition: all .2s ease-in-out;
--moz-transition: all .2s ease-in-out;
-/* transform: perspective(2000px) rotateX(50deg) rotateY(5deg) rotateZ(5deg); */
+    cursor: pointer;
+    transform: perspective(700px) rotateX(25deg) ;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    }
+
+.card h2, .card p {
+    padding: 10px;
+}
+
+.card p {
+    padding-top: 15px;
 }
 
 .projimg {
     width:100%;
 }
 
+.imgstyle{
+    height: 180px;
+    border-radius: 5px;
+    display: block;
+    overflow: scroll;
+}
+
+.iconsContainer {
+    position: absolute;
+    bottom: 65px;
+    left: 1%;
+    right: 1%;
+}
+
 .iconflip {
-    animation: rotation 6s infinite linear;
+    width: 15%;
+    height: 15%;
+    padding: 5px;
+    animation: rotation 6s linear infinite;
+    -webkit-animation: rotation 6s linear infinite;
+    -moz-animation: rotation 6s linear infinite;
 }
 
 @keyframes rotation {
@@ -326,7 +371,26 @@ transition: all .2s ease-in-out;
       transform: rotateY(359deg);
     }
   }
-/* footer */
+
+@-webkit-keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
+
+  @-moz-keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
+
+/* footer!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .thefooter {
     margin-left: 200px;
@@ -360,6 +424,14 @@ transition: all .2s ease-in-out;
     #projects {
         margin-left: 0;
         /* padding-right: 20px; */
+    }
+
+    .card {
+        width: 230px;
+    }
+
+    .card p {
+        font-size: 14px;
     }
 
     .thefooter {
