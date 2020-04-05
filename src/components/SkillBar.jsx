@@ -6,7 +6,7 @@ const SkillBar = (props) => {
         <div className="outer">
         <img className="skilllogo" src={props.logo} alt=""/>
             <div className="inner" style={{ width: props.width, height: '25px', backgroundColor: 'rgb(255, 187, 0)', borderRadius: '5px' }}>
-                <div style={{ padding: '3px', width: '75px', paddingLeft: '5px', backgroundColor: 'yellow', borderRadius: '5px 0px 0px 5px' }}>{props.lang}</div>
+                <div style={{ padding: '3px', height: '19px', width: '75px', backgroundColor: 'yellow', borderRadius: '5px 0px 0px 5px' }}>{props.lang}</div>
                 <p style={{ top: '0', left: '90%', padding: '3px' }}>{props.perc}</p>
             </div>
         </div>
