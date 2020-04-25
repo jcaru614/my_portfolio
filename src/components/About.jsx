@@ -18,7 +18,7 @@ const About = () => {
     return (
         <div id="about" style={background} >
             <div>
-                <ScrollAnimation delay={500} animateIn='fadeIn'>
+                <ScrollAnimation delay={1000} animateIn='fadeIn'>
                     <h1>Hi I'm Joey</h1>
                     <p>I am a full-stack web developer, with a passion for designing and building 
                     products with simplicity and functionality in mind. I started learning front-end and back-end

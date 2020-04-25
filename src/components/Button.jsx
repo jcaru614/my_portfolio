@@ -13,7 +13,6 @@ const Button = (props) => {
         color: 'white',
         textDecoration: 'none',
         boxShadow: '3px 3px whitesmoke',
-        transform: 'perspective(300px) rotateX(30deg)',
     }
     
     return (

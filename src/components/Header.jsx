@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import MenuIcon from '@material-ui/icons/Menu';
 import me from '../images/me.jpg'
