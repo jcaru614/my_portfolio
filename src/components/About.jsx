@@ -20,7 +20,9 @@ const About = () => {
             <div>
                 <ScrollAnimation delay={500} animateIn='fadeIn'>
                     <h1>Hi I'm Joey</h1>
-                    <p>I am a full stack web developer, with a passion for designing and building products with simplicity and funcionality in mind. I started learning front-end technologies in November 2019 and Joined a Full Stack bootcamp in January 2020. </p>
+                    <p>I am a full-stack web developer, with a passion for designing and building 
+                    products with simplicity and functionality in mind. I started learning front-end and back-end
+                    technologies in November 2019 and have continued to devote myself full-time to learning every single day.</p>
                 </ScrollAnimation>
 
                 <div className="traits">    
