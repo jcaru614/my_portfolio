@@ -1,5 +1,5 @@
 import React from 'react';
-import footer from '../images/footer.jpeg'
+import footer from '../images/footer3.jpeg'
 
 function Footer() {
 

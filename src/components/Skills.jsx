@@ -17,55 +17,46 @@ const Skills = () => {
                 <h1>Skills</h1>
                     <SkillBar
                         logo={html}
-                        width='70%'
                         lang="HTML"
-                        perc="70%"
+                        perc="75%"
                     />
                     <SkillBar
                         logo={css}
-                        width='70%'
                         lang="CSS"
-                        perc="70%"
+                        perc="75%"
                     />
                     <SkillBar
                         logo={javascript}
-                        width='65%'
                         lang="Javascript"
-                        perc="65%"
+                        perc="70%"
                     />
                     <SkillBar
                         logo={react}
-                        width='65%'
                         lang="React"
-                        perc="65%"
+                        perc="70%"
                     />
                     <SkillBar
                         logo={python}
-                        width='60%'
                         lang="Python"
-                        perc="60%"
+                        perc="70%"
                     />
                     <SkillBar
                         logo={django}
-                        width='60%'
                         lang="Django"
-                        perc="60%"
+                        perc="70%"
                     />
                     <SkillBar
                         logo={nodejs}
-                        width='60%'
                         lang="Node.JS"
-                        perc="60%"
+                        perc="65%"
                     />
                     <SkillBar
                         logo={express}
-                        width='60%'
                         lang="Express"
-                        perc="60%"
+                        perc="65%"
                     />
                     <SkillBar
                         logo={figma}
-                        width='55%'
                         lang="Figma"
                         perc="55%"
                     />

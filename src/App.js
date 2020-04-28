@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
+import Welcome from './components/Welcome';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio'
@@ -15,6 +16,7 @@ function App() {
       </div>
 
       <div>
+        <Welcome />
         <About />
         <Skills />
         <Portfolio />
