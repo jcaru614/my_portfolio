@@ -9,7 +9,7 @@ const Button = (props) => {
         backgroundColor: 'transparent',
         position: 'absolute',
         bottom: '20px',
-        left: '29%',
+        left: props.left,
         color: 'white',
         textDecoration: 'none',
         boxShadow: '3px 3px whitesmoke',
@@ -20,4 +20,4 @@ const Button = (props) => {
     )
 }
 
-export default Button
+export default Button;

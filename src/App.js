@@ -4,22 +4,22 @@ import Header from './components/Header';
 import Welcome from './components/Welcome';
 import About from './components/About';
 import Skills from './components/Skills';
-import Portfolio from './components/Portfolio'
+import Projects from './components/Projects'
 import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <div className='appjs'>
       <div>
         <Header />
         <Sidebar />
       </div>
 
       <div>
-        <Welcome />
+        <Welcome/>
         <About />
         <Skills />
-        <Portfolio />
+        <Projects />
         <Footer />
       </div>
 

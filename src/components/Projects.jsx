@@ -15,7 +15,7 @@ import react from '../images/react.png'
 import nodejs from '../images/nodejs.png'
 import figma from '../images/figma.png'
 
-const Portfolio = (props) => {
+const Projects = (props) => {
     console.log(props);
 
     const icons1 = [javascript, python, django, mysql];
@@ -50,4 +50,4 @@ const Portfolio = (props) => {
     )
 }
 
-export default Portfolio
+export default Projects
