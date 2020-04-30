@@ -5,17 +5,17 @@ const Card = (props) => {
 
   return (
     <a href={props.link} target="blank">
-      <div className="card">
-        <h2>{props.title}</h2>
-        <div className="imgstyle"><img className="projimg" src={props.image} alt="" /></div>
-        <p>{props.description}</p>
-        <Button link={props.link} target="blank" left="29%"/>
-        {props.icons ? <div className="iconsContainer">
-          {props.icons ? props.icons.map((item, i) => (
-            <img className="iconflip"  key={i} src={item} alt="" />
-          )) : null}
-        </div> : null}
-      </div>
+    <div className="card">
+      <h2>{props.title}</h2>
+      <div className="imgstyle"><img className="projimg" src={props.image} alt="" /></div>
+      <p>{props.description}</p>
+      {<div className="iconsContainer">
+        {props.icons.map((item, i) => (
+          <img className="iconflip" key={i} src={item} alt="" />
+        ))}
+      </div>}
+      <a className='btn2' href={props.link} target="blank">Check it out!</a>
+    </div>
     </a>
   )
 }

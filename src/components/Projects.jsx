@@ -31,6 +31,7 @@ const Projects = (props) => {
                 description='An IOS parking platform that matches users based on eta and distance to destination so that they arrive to the parked car simultaneously.'
                 link="http://spotbackapp.com/"
                 icons={icons3}
+                
                 />
                 <Card
                 title='Eventune' 

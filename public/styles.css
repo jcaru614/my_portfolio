@@ -25,14 +25,46 @@ body::-webkit-scrollbar-thumb {
     background: linear-gradient(51deg, rgba(26,34,47,1) 32%, rgba(102,116,139,1) 73%, rgba(87,120,172,1) 100%);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* Button Component */
+.btn {
+    color: #FFBA08;
+    background: transparent;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 0 0 #FFBA08;
+	-webkit-transition: all ease 0.7s;
+	-moz-transition: all ease 0.7s;
+	transition: all ease 0.7s;
+}
+.btn:hover {
+    box-shadow: inset 190px 0 0 0 #FFBA08;
+    color: #fff;
+  }
+
+  .btn2 {
+    padding: 8px;
+    border-radius: 10px;
+    border: 3px solid #FFBA08;
+    color: #FFBA08;
+    position: absolute;
+    bottom: 20px;
+    left: 32%;
+    text-decoration: none;
+    -webkit-transition: all ease 0.7s;
+	-moz-transition: all ease 0.7s;
+	transition: all ease 0.7s;
+  }
+
+  .btn2:hover {
+      background-color: #FFBA08;
+      color: white;
+  }
 /* SideBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .sidebar {
     margin: 0;
@@ -45,7 +77,6 @@ h6 {
     text-align: center;
     padding-top: 30px;
 }
-
 /* Sidebar links */
 .sidetxt {
     display: block;
@@ -55,6 +86,16 @@ h6 {
     margin: 50px 0;
     font-weight: 700;
     font-size: 15px;
+    -webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+/* Links on mouse-over */
+.sidetxt:hover {
+    background-color: #A2AEBB;
+    color: white;
+    transform: scaley(1.3);
+    font-weight: 900;
 }
 
 .me {
@@ -78,13 +119,6 @@ h6 {
     transition: all 1.3s ease-in-out;
     -webkit-transition: all 1.3s ease-in-out;
     -moz-transition: all 1.3s ease-in-out;
-}
-
-/* Links on mouse-over */
-.sidetxt:hover:not(.active) {
-    background-color: #A2AEBB;
-    color: white;
-    transform: scale(1.3);
 }
 
 .download {
@@ -194,7 +228,7 @@ h6 {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    background-color: black;
+    background-color: rgb(1,1,1);
     height: 100vh;
     /* z-index: -1; */
     margin-left: 200px;
@@ -211,9 +245,9 @@ h6 {
     margin-bottom: 20px;
     
 }
-.text {
-    color: #FFFFFF;
-    font-size: 30px;
+.text{
+    font-size: 40px;
+    color: white;
 }
 .link {
     color: #FFBA08;
@@ -233,13 +267,6 @@ h6 {
     height: 100vh;
 }
 
-.welbtn {
-    border: 2px solid orange;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 5px;
-}
-
 /* About !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 #about {
     margin-left: 200px;
@@ -247,9 +274,17 @@ h6 {
     text-align: center;
     background-color: #E5ECF4;
     text-align: center;
-    text-decoration: underline;
     font-size: 25px;
 }
+
+#about h1 {
+    text-decoration: underline;
+}
+#about p {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
 
 /* SKILS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -268,7 +303,7 @@ h6 {
 }
 
 .skills .outer {
-    margin-left: 13%;
+    margin-left: 19%;
 }
 
 /* Portfolio!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -306,7 +341,7 @@ h6 {
 
 .card:hover {
     cursor: pointer;
-    transform: perspective(700px) rotateX(25deg);
+    transform: perspective(900px) rotateX(20deg);
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -334,7 +369,7 @@ h6 {
 
 .iconsContainer {
     position: absolute;
-    bottom: 65px;
+    bottom: 70px;
     left: 1%;
     right: 1%;
 }
@@ -387,6 +422,10 @@ h6 {
     .sidebar {
         display: none;
     }
+/* btn2 */
+    .btn2 {
+        left: 28%;
+      }
     /* welcome */
     #WelcomeContainer {
         margin-left: 0;
@@ -429,11 +468,11 @@ h6 {
     }
     /* skills */
     #skills-container {
-        margin-left: 0;
+        margin-left: 0px;
         padding: 50px 10px;
     }
 
-    /* portfolio */
+    /* projects */
     #projects {
         margin-left: 0;
         /* padding-right: 20px; */

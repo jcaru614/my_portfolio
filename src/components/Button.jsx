@@ -3,20 +3,18 @@ import React from 'react'
 const Button = (props) => {
     
     const btn = {
-        padding: '2.5% 5%',
+        margin: props.margin,
+        padding: props.padding,
         borderRadius: '10px',
-        border: '2px solid white',
-        backgroundColor: 'transparent',
-        position: 'absolute',
+        border: '3px solid #FFBA08',
+        position: props.position,
         bottom: '20px',
         left: props.left,
-        color: 'white',
         textDecoration: 'none',
-        boxShadow: '3px 3px whitesmoke',
     }
     
     return (
-        <a className="btnhover" style={btn} href={props.link} target="blank">Check it out!</a>
+        <a className="btn" style={btn} href={props.link} >{props.title}</a>
     )
 }
 

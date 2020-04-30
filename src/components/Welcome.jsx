@@ -1,16 +1,13 @@
 import React from 'react';
 import Particles from 'react-particles-js';
+import Button from './Button'
 
 function Welcome1() {
-
     return (
         <div id="WelcomeContainer">
             <h1 className="welcome">Welcome!</h1>
             <h1 className="name">I'm Joey Caruana</h1>
-            {/* <p className="text">I am a full-stack web developer, with a passion for designing and building
-                products with simplicity and functionality in mind. I started learning front-end and back-end
-                technologies in November 2019 and have continued to devote myself full-time to learning every single day.</p> */}
-            <a className="link" href="#about"> <span className="welbtn">Click Here</span><span className="text"> to learn more about me</span></a>
+            <a className="link" ><span><Button link="#about" title="Click Here!" left='0px' margin="0 5px" padding="10px" /> </span> <span className="text"> to learn more about me</span></a>
             <div className="bg">
                 <Particles
                     params={{
