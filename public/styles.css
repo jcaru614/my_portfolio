@@ -92,10 +92,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* Links on mouse-over */
 .sidetxt:hover {
-    background-color: #A2AEBB;
+    background-color: #FFBA08;
     color: white;
     transform: scaley(1.3);
-    font-weight: 900;
 }
 
 .me {
@@ -143,12 +142,8 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     display: grid;
     background-color: rgb(27,35,46);
-    /* background-color: transparent; */
     grid-template-areas: "logo burger" "nav nav";
     z-index: 3;
-    /* margin-left: 200px; */
-    /* outline: 1px solid red; */
-
 }
 
 .me2 {
@@ -156,7 +151,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 75px;
     border-radius: 100px;
     border: 3px solid white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .Burger {
@@ -167,20 +162,17 @@ h1,h2,h3,h4,h5,h6 {
     border: none;
     background: none;
     outline: none;
-    z-index: 1;
-}
-
-.Burger:hover {
-    transform: scale(1.3);
+    z-index: 2;
 }
 
 .Burger:active {
-    color: #A2AEBB;
+    transform: scale(1.3);
+    color: #FFBA08;
 }
 
 .head a:hover:not(.active) {
-    color: white;
     transform: scale(1.3);
+    color: #FFBA08;
 }
 
 .head {

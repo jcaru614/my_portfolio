@@ -1,12 +1,15 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import Button from './Button'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function Welcome1() {
     return (
         <div id="WelcomeContainer">
-            <h1 className="welcome">Welcome!</h1>
-            <h1 className="name">I'm Joey Caruana</h1>
+            <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' delay={500}>
+                <h1 className="welcome">Welcome!</h1>
+                <h1 className="name">I'm Joey Caruana</h1>
+            </ScrollAnimation>
             <a className="link" ><span><Button link="#about" title="Click Here!" left='0px' margin="0 5px" padding="10px" /> </span> <span className="text"> to learn more about me</span></a>
             <div className="bg">
                 <Particles

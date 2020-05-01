@@ -5,9 +5,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function AboutCard(props) {
 
     return (
-        <ScrollAnimation delay={350} animateIn='bounceInRight' animateOut='flipOutY' initiallyVisible={false} style={{display: 'inline-block'}} >
+        <ScrollAnimation delay={350} animateIn='bounceInRight' animateOut='fadeOut' initiallyVisible={false} style={{display: 'inline-block'}} >
             <div style={noExtraSpace.smallerView}>
-                <Breakpoint customQuery="(min-width: 701px)" style={noExtraSpace.generalView}>
+                <Breakpoint customQuery="(min-width: 621px)" style={noExtraSpace.generalView}>
                     <div style={theContainer.generalView}>
                     <ScrollAnimation delay={props.time} animateIn='tada' initiallyVisible={true} >
                         <img style={images} src={props.img} alt={props.alt} />
@@ -16,7 +16,7 @@ function AboutCard(props) {
                         <p style={text.generalView}>{props.content}</p>
                     </div>
                 </Breakpoint>
-                <Breakpoint customQuery="(max-width: 700px)" style={noExtraSpace.smallerView}>
+                <Breakpoint customQuery="(max-width: 620px)" style={noExtraSpace.smallerView}>
                     <div style={theContainer.smallerView}>
                         <img style={images} src={props.img} alt={props.alt} />
                         <h3 style={title}>{props.title}</h3>
@@ -41,6 +41,7 @@ const theContainer = {
         borderRadius: '10px',
         verticalAlign: 'top',
         textAlign: 'center',
+        zIndex: '-1'
     },
     smallerView: {
         display: 'inline-block',
@@ -52,6 +53,7 @@ const theContainer = {
         borderRadius: '10px',
         verticalAlign: 'top',
         textAlign: 'center',
+        zIndex: '-1'
     }
 
 }
@@ -70,7 +72,7 @@ const text = {
 const title = {
     fontSize: '25px',
     padding: '5px',
-    color: 'white',
+    color: '#ffba08',
 }
 const images = {
     padding: '5px',
@@ -78,6 +80,8 @@ const images = {
     backgroundColor: '#E5ECF4',
     height: '80px',
     marginBottom: '10px',
+    zIndex: '-1'
+
 }
 const noExtraSpace = {
     generalView: {
