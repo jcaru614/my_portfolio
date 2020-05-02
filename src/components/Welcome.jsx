@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function Welcome1() {
     return (
         <div id="WelcomeContainer">
-            <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' delay={500}>
+            <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' delay={500} duration={3}>
                 <h1 className="welcome">Welcome!</h1>
                 <h1 className="name">I'm Joey Caruana</h1>
             </ScrollAnimation>
