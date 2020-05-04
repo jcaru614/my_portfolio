@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './ProjectCard'
 import Eventune from '../images/eventune.png'
 import TheKeep from '../images/theKeep.png'
+import cinebox from '../images/cinebox.png'
 import Spotback from '../images/spotback.png'
 import html from "../images/html.png"
 import css from "../images/css.png"
@@ -21,6 +22,8 @@ const Projects = (props) => {
     const icons1 = [javascript, python, django, mysql];
     const icons2 = [mongo,express,react, nodejs];
     const icons3 = [figma, html, css]
+    const icons4 = [react, python, django, mysql];
+    
 
     return (
         <div id="projects">
@@ -31,6 +34,14 @@ const Projects = (props) => {
                 description='An IOS parking platform that matches users based on eta and distance to destination so that they arrive to the parked car simultaneously.'
                 link="http://spotbackapp.com/"
                 icons={icons3}
+                
+                />
+                <Card 
+                title='Cinebox' 
+                image={cinebox}
+                description='A React Native movie rating app that allows you to create and rate movies as well as search the for the movie you want.'
+                link="https://www.youtube.com/watch?v=ihZetI2keKQ&feature=youtu.be"
+                icons={icons4}
                 
                 />
                 <Card
