@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function AboutCard(props) {
 
     return (
-        <ScrollAnimation delay={200} duration={2} animateIn='bounceInRight' animateOut='fadeOut' initiallyVisible={false} style={{display: 'inline-block'}} >
+        <ScrollAnimation animateIn='flipInY' animateOut='fadeOut' delay={200} duration={2} style={{display: 'inline-block'}} >
             <div style={noExtraSpace.smallerView}>
                 <Breakpoint customQuery="(min-width: 621px)" style={noExtraSpace.generalView}>
                     <div style={theContainer.generalView}>
