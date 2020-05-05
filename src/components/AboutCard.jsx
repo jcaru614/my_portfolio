@@ -12,14 +12,14 @@ function AboutCard(props) {
                     <ScrollAnimation delay={props.time} animateIn='tada' initiallyVisible={true} >
                         <img style={images} src={props.img} alt={props.alt} />
                         </ScrollAnimation>
-                        <h3 style={title}>{props.title}</h3>
+                        <h2>{props.title}</h2>
                         <p style={text.generalView}>{props.content}</p>
                     </div>
                 </Breakpoint>
                 <Breakpoint customQuery="(max-width: 620px)" style={noExtraSpace.smallerView}>
                     <div style={theContainer.smallerView}>
                         <img style={images} src={props.img} alt={props.alt} />
-                        <h3 style={title}>{props.title}</h3>
+                        <h3>{props.title}</h3>
                         <p style={text.smallerView}>{props.content}</p>
                     </div>
                 </Breakpoint>
@@ -38,7 +38,7 @@ const theContainer = {
         width: '230px',
         height: '330px',
         backgroundColor: 'rgb(27,35,46)',
-        borderRadius: '10px',
+        borderRadius: '40px 10px 40px 10px',
         verticalAlign: 'top',
         textAlign: 'center',
         zIndex: '-1'
@@ -50,7 +50,7 @@ const theContainer = {
         width: '200px',
         height: '310px',
         backgroundColor: 'rgb(27,35,46)',
-        borderRadius: '10px',
+        borderRadius: '5px 40px 5px 40px',
         verticalAlign: 'top',
         textAlign: 'center',
         zIndex: '-1'
@@ -69,11 +69,7 @@ const text = {
         color: 'white',
     }
 }
-const title = {
-    fontSize: '25px',
-    padding: '5px',
-    color: '#ffba08',
-}
+
 const images = {
     padding: '5px',
     borderRadius: '10%',

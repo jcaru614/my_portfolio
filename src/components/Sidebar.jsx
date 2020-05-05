@@ -10,9 +10,9 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <img className="me" src={me} alt="" />
-            <a className="sidetxt" href="#about">About</a>
-            <a className="sidetxt" href="#skills-container">Skills</a>
-            <a className="sidetxt" href="#projects">Projects</a>
+            <a className="sidetxt" href="#about"><p>About</p></a>
+            <a className="sidetxt" href="#skills-container"><p>Skills</p></a>
+            <a className="sidetxt" href="#projects"><p>Projects</p></a>
 
             <a className="download" href={resume} download>Resume <GetAppIcon /></a>
             <p>GET IN TOUCH</p>

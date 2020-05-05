@@ -11,8 +11,8 @@ const About = () => {
     return (
         <div id="about" >
             <h1>About</h1>
-            <p>I am a full-stack web developer, with a passion for designing and building
-            products with simplicity and functionality in mind. I devote myself full-time to learning every single day.</p>
+            <h2 className="abouth2">I am a full-stack web developer, with a passion for designing and building
+            products with simplicity and functionality in mind. I devote myself full-time to learning every single day.</h2>
             <AboutCard
                 img={hardworking}
                 time={800}
