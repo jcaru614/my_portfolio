@@ -1,5 +1,5 @@
 import React from 'react'
-// import Button from './Button'
+import Zoom from 'react-reveal/Zoom';
 
 const Card = (props) => {
 
@@ -7,7 +7,9 @@ const Card = (props) => {
     <a href={props.link} target="blank">
     <div className="card">
       <h2>{props.title}</h2>
+      <Zoom>
       <div className="imgstyle"><img className="projimg" src={props.image} alt="" /></div>
+      </Zoom>
       <p>{props.description}</p>
       {<div className="iconsContainer">
         {props.icons.map((item, i) => (

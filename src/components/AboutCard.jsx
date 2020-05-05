@@ -1,11 +1,12 @@
 import React from 'react';
 import { Breakpoint } from 'react-socks';
 import ScrollAnimation from 'react-animate-on-scroll';
+import RubberBand from 'react-reveal/RubberBand';
 
 function AboutCard(props) {
 
     return (
-        <ScrollAnimation animateIn='flipInY' animateOut='fadeOut' delay={200} duration={2} style={{display: 'inline-block'}} >
+        <RubberBand style={{display: 'inline-block'}} >
             <div style={noExtraSpace.smallerView}>
                 <Breakpoint customQuery="(min-width: 621px)" style={noExtraSpace.generalView}>
                     <div style={theContainer.generalView}>
@@ -24,7 +25,7 @@ function AboutCard(props) {
                     </div>
                 </Breakpoint>
             </div>
-            </ScrollAnimation>
+            </RubberBand>
         
 
     );
