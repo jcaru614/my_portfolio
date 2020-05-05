@@ -19,7 +19,7 @@ function AboutCard(props) {
                 <Breakpoint customQuery="(max-width: 620px)" style={noExtraSpace.smallerView}>
                     <div style={theContainer.smallerView}>
                         <img style={images} src={props.img} alt={props.alt} />
-                        <h3>{props.title}</h3>
+                        <h2>{props.title}</h2>
                         <p style={text.smallerView}>{props.content}</p>
                     </div>
                 </Breakpoint>
