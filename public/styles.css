@@ -9,21 +9,21 @@ html {
     scroll-behavior: smooth;
 }
 
-/* body::-webkit-scrollbar {
+ body::-webkit-scrollbar {
     width: 10px;
-} */
+} 
 
-/* Track */
-/* body::-webkit-scrollbar-track {
+/* Track  */
+ body::-webkit-scrollbar-track {
     background: rgb(240, 240, 240);
-} */
+} 
 
-/* Handle */
-/* body::-webkit-scrollbar-thumb {
+ /* Handle  */
+ body::-webkit-scrollbar-thumb {
     border: 2px solid white;
     border-radius: 5px;
     background: linear-gradient(51deg, rgba(26,34,47,1) 32%, rgba(102,116,139,1) 73%, rgba(87,120,172,1) 100%);
-} */
+} 
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Ubuntu', sans-serif;
