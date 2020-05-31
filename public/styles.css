@@ -267,7 +267,7 @@ p{
 /* About !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 #about {
     margin-left: 200px;
-    padding: 100px;
+    padding: 100px 25px;
     text-align: center;
     background-color: #E5ECF4;
     text-align: center;
@@ -276,8 +276,9 @@ p{
 
 .abouth2 {
     text-shadow: rgb(138, 137, 137) 10px 10px 10px;
-    margin-top: 15px;
+    margin: 10px 150px;
     color: black;
+    padding: 10px;
 }
 
 /* SKILS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -312,7 +313,7 @@ p{
     vertical-align: top;
     position: relative;
     box-shadow: 20px 30px 20px rgb(138, 137, 137);
-    padding: 10px;
+    padding: 15px 30px 15px 30px;
     position: relative;
     margin-bottom: 50px;
 }
@@ -326,7 +327,7 @@ p{
 }
 
 .card p {
-    padding: 20px 5px;
+    padding: 25px 5px;
 }
 
 .projimg {
@@ -336,8 +337,9 @@ p{
 .imgstyle {
     height: 220px;
     border-radius: 5px;
-    display: block;
+    /* display: block; */
     overflow: scroll;
+    z-index: 1;
 }
 
 .iconsContainer {

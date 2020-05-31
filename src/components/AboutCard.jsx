@@ -35,14 +35,16 @@ const theContainer = {
     generalView: {
         display: 'inline-block',
         padding: '15px 5px',
-        marginRight: '5px',
+        marginRight: '20px',
+        marginLeft: '20px',
         width: '230px',
         height: '330px',
         backgroundColor: 'rgb(27,35,46)',
         borderRadius: '40px 10px 40px 10px',
         verticalAlign: 'top',
         textAlign: 'center',
-        zIndex: '-1'
+        zIndex: '-1',
+        boxShadow: '20px 30px 20px rgb(138, 137, 137)'
     },
     smallerView: {
         display: 'inline-block',

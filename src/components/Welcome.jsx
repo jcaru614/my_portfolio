@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 import Button from './Button'
 import ScrollAnimation from 'react-animate-on-scroll';
 
-function Welcome1() {
+function Welcome() {
     return (
         <div id="WelcomeContainer">
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' delay={700} duration={4}>
@@ -69,4 +69,4 @@ function Welcome1() {
     )
 }
 
-export default Welcome1;
+export default Welcome;

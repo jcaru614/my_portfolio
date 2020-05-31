@@ -3,6 +3,7 @@ import SkillBar from './SkillBar'
 import html from "../images/html.png"
 import css from "../images/css.png"
 import javascript from "../images/javascript.png"
+import typescript from '../images/typescript.png'
 import python from "../images/python.png"
 import django from "../images/django.png"
 import express from '../images/express.png'
@@ -53,6 +54,11 @@ const Skills = () => {
                     <SkillBar
                         logo={express}
                         lang="Express"
+                        perc="65%"
+                    />
+                    <SkillBar
+                        logo={typescript}
+                        lang="Typescript"
                         perc="65%"
                     />
                     <SkillBar

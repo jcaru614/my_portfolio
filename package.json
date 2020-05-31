@@ -18,10 +18,12 @@
     "react-particles-js": "^3.1.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.1",
-    "react-socks": "^2.1.0"
+    "react-slick": "^0.26.1",
+    "react-socks": "^2.1.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
