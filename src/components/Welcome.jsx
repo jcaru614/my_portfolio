@@ -10,7 +10,7 @@ function Welcome() {
                 <h1 className="welcome">Welcome!</h1>
                 <h1 className="name">I'm Joey Caruana</h1>
             </ScrollAnimation>
-            <a className="link" ><span><Button link="#about" title="Click Here!" left='0px' margin="0 5px" padding="10px" /> </span> <span className="text"> to learn more about me</span></a>
+            <a className="link" href="#about" ><span><Button link="#about" title="Click Here!" left='0px' margin="0 5px" padding="10px" /> </span> <span className="text"> to learn more about me</span></a>
             <div className="bg">
                 <Particles
                     params={{

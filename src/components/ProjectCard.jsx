@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 
 const Card = (props) => {
 
-
   const settings = {
     infinite: true,
     lazyLoad: true,
@@ -22,21 +21,17 @@ const Card = (props) => {
         <h2>{props.title}</h2>
         <Zoom>
           <Slider {...settings} >
+          {props.images.map((item, index) => (
             <div className="imgstyle">
-              <img className="projimg" src={props.image1} alt="" />
+              <img className="projimg" key={index} src={item} alt="" />
             </div>
-            <div className="imgstyle">
-              <img className="projimg" src={props.image2} alt="" />
-            </div>
-            <div className="imgstyle">
-              <img className="projimg" src={props.image3} alt="" />
-            </div>
+          ))}
           </Slider>
         </Zoom>
         <p>{props.description}</p>
         {<div className="iconsContainer">
-          {props.icons.map((item, i) => (
-            <img className="iconflip" key={i} src={item} alt="" />
+          {props.icons.map((item, index) => (
+            <img className="iconflip" key={index} src={item} alt="" />
           ))}
         </div>}
         <a className='btn2' href={props.link} target="blank">Check it out!</a>

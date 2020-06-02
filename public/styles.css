@@ -438,6 +438,11 @@ p{
         margin-left: 0;
         padding: 50px 10px;
     }
+    .abouth2 {
+        margin: 10px;
+        font-size: 20px;
+
+    }
     /* skills */
     #skills-container {
         margin-left: 0px;
@@ -448,6 +453,15 @@ p{
     #projects {
         margin-left: 0;
         /* padding-right: 20px; */
+    }
+
+    .card {
+        height: 450px;
+    }
+
+    .imgstyle {
+        max-height: 150px;
+        border-radius: 5px;
     }
 
     .card {
