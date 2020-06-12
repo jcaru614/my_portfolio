@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './ProjectCard';
 // icons
-import javascript from '../images/javascript.png';
+import jquery from '../images/jquery.png';
 import python from "../images/python.png";
 import django from "../images/django.png";
 import mysql from "../images/mysql.png";
@@ -39,7 +39,7 @@ const Projects = (props) => {
     // icons
     const icons1 = [typescript, mongo, express, nodejs, figma]
     const icons2 = [react, python, django, mysql];
-    const icons3 = [javascript, python, django, mysql];
+    const icons3 = [python, django, jquery, mysql];
     const icons4 = [mongo, express, react, nodejs];
 
 
