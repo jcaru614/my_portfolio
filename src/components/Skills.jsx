@@ -18,12 +18,12 @@ const Skills = () => {
                 <h1>Skills</h1>
                     <SkillBar
                         logo={html}
-                        lang="HTML"
+                        lang="HTML5"
                         perc="75%"
                     />
                     <SkillBar
                         logo={css}
-                        lang="CSS"
+                        lang="CSS3"
                         perc="75%"
                     />
                     <SkillBar
@@ -34,7 +34,23 @@ const Skills = () => {
                     <SkillBar
                         logo={react}
                         lang="React"
-                        perc="70%"
+                        perc="75%"
+                    />
+                    
+                    <SkillBar
+                        logo={nodejs}
+                        lang="Node.js"
+                        perc="75%"
+                    />
+                    <SkillBar
+                        logo={express}
+                        lang="Express"
+                        perc="75%"
+                    />
+                    <SkillBar
+                        logo={typescript}
+                        lang="Typescript"
+                        perc="65%"
                     />
                     <SkillBar
                         logo={python}
@@ -47,24 +63,9 @@ const Skills = () => {
                         perc="70%"
                     />
                     <SkillBar
-                        logo={nodejs}
-                        lang="Node.JS"
-                        perc="65%"
-                    />
-                    <SkillBar
-                        logo={express}
-                        lang="Express"
-                        perc="65%"
-                    />
-                    <SkillBar
-                        logo={typescript}
-                        lang="Typescript"
-                        perc="65%"
-                    />
-                    <SkillBar
                         logo={figma}
                         lang="Figma"
-                        perc="55%"
+                        perc="60%"
                     />
             </div>
         </div>

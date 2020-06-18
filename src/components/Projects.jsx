@@ -5,6 +5,7 @@ import jquery from '../images/jquery.png';
 import python from "../images/python.png";
 import django from "../images/django.png";
 import mysql from "../images/mysql.png";
+import postgresql from "../images/postgresql.png";
 import mongo from '../images/mongo.png';
 import express from '../images/express.png';
 import react from '../images/react.png';
@@ -39,7 +40,7 @@ const Projects = (props) => {
     // icons
     const icons1 = [typescript, mongo, express, nodejs, figma]
     const icons2 = [react, python, django, mysql];
-    const icons3 = [python, django, jquery, mysql];
+    const icons3 = [python, django, jquery, postgresql];
     const icons4 = [mongo, express, react, nodejs];
 
 
@@ -66,14 +67,14 @@ const Projects = (props) => {
                 title='Eventune'
                 images={images3}
                 description='Find the latest events and concerts! Eventune uses a Ticket Master API to provide event details based on city or keyword search.'
-                link="http://34.219.65.78/"
+                link="http://eventune.herokuapp.com/"
                 icons={icons3}
             />
             <Card
                 title='The Keep'
                 images={images4}
                 description='Keep track of all your personal tasks and notes through a clean and simple UI that is fully secured and authenticated.'
-                link="http://54.212.5.18/"
+                link="https://thekeepapp.herokuapp.com/"
                 icons={icons4}
             />
         </div>
