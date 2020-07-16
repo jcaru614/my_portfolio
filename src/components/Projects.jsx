@@ -31,17 +31,26 @@ import theKeep1 from '../images/theKeep1.png';
 import theKeep2 from '../images/theKeep2.png';
 import theKeep3 from '../images/theKeep3.png';
 
+// newMonday
+import newMonday1 from '../images/newMonday1.png'
+import newMonday2 from '../images/newMonday2.png'
+import newMonday3 from '../images/newMonday3.png'
+import newMonday4 from '../images/newMonday4.png'
+import newMonday5 from '../images/newMonday5.png'
+
 const Projects = (props) => {
     //  project images
     const images1 = [spotback1, spotback2, spotback3, spotback4];
     const images2 = [cinebox1, cinebox2, cinebox3];
     const images3 = [eventune1, eventune2, eventune3, eventune4]
     const images4 = [theKeep1, theKeep2, theKeep3];
+    const images5 = [newMonday1, newMonday2, newMonday3, newMonday4, newMonday5];
     // icons
     const icons1 = [typescript, mongo, express, nodejs, figma]
     const icons2 = [react, python, django, mysql];
     const icons3 = [python, django, jquery, postgresql];
     const icons4 = [mongo, express, react, nodejs];
+    const icons5 = [typescript, mongo, express, react, nodejs];
 
 
     return (
@@ -53,6 +62,14 @@ const Projects = (props) => {
                 description='An IOS parking platform that matches users based on eta and distance to destination so that they arrive to the parked car simultaneously.'
                 link="http://spotbackapp.com/"
                 icons={icons1}
+
+            />
+            <Card
+                title='NewMonday.com'
+                images={images5}
+                description='An IOS parking platform that matches users based on eta and distance to destination so that they arrive to the parked car simultaneously.'
+                link="https://youtu.be/KpVJywmQEp0/"
+                icons={icons5}
 
             />
             <Card
