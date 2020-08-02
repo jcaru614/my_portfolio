@@ -67,7 +67,7 @@ const Projects = (props) => {
             <Card
                 title='NewMonday.com'
                 images={images5}
-                description='An IOS parking platform that matches users based on eta and distance to destination so that they arrive to the parked car simultaneously.'
+                description='A project management style app that allows users to create tasks on story board and drag and drop to change position and stage.'
                 link="https://youtu.be/KpVJywmQEp0/"
                 icons={icons5}
 
