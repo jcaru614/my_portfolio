@@ -8,6 +8,7 @@ import python from "../images/python.png"
 import django from "../images/django.png"
 import express from '../images/express.png'
 import react from '../images/react.png'
+import reactNative from '../images/reactNative.png'
 import nodejs from '../images/nodejs.png'
 import figma from '../images/figma.png'
 
@@ -34,9 +35,14 @@ const Skills = () => {
                     <SkillBar
                         logo={react}
                         lang="React"
-                        perc="75%"
+                        perc="85%"
                     />
-                    
+                    <SkillBar
+                        logo={reactNative}
+                        lang="React Native"
+                        perc="85%"
+                    />
+            
                     <SkillBar
                         logo={nodejs}
                         lang="Node.js"
