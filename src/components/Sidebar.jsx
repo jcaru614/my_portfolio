@@ -4,7 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import GetAppIcon from '@material-ui/icons/GetApp';
-import resume from '../resume/JosephCaruanaResume.docx'
+import resume from '../resume/JosephCaruanaResume.pdf'
 
 const Sidebar = () => {
     return (
