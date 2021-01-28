@@ -1,0 +1,105 @@
+.card {
+    background-color: rgb(27,35,46);
+    width: 350px;
+    height: 500px;
+    margin: 5%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    position: relative;
+    box-shadow: 20px 30px 20px rgb(138, 137, 137);
+    padding: 15px 30px 15px 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: perspective(900px) rotateX(20deg);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+.card p {
+    padding: 25px 5px;
+}
+
+.projimg {
+    width: 100%;
+}
+
+.imgstyle {
+    height: 220px;
+    border-radius: 5px;
+    /* display: block; */
+    overflow: scroll;
+    z-index: 1;
+}
+
+.iconsContainer {
+    position: absolute;
+    bottom: 70px;
+    left: 1%;
+    right: 1%;
+}
+
+.iconflip {
+    width: 15%;
+    height: 15%;
+    padding: 5px;
+    animation: rotation 6s linear infinite;
+    -webkit-animation: rotation 6s linear infinite;
+    -moz-animation: rotation 6s linear infinite;
+}
+
+.btn2 {
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #FFBA08;
+    color: #FFBA08;
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    transform: tex;
+    text-decoration: none;
+    -webkit-transition: all ease 0.7s;
+	-moz-transition: all ease 0.7s;
+    transition: all ease 0.7s;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .btn2:hover {
+      background-color: #FFBA08;
+      color: white;
+      border: 3px solid white;
+  }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotation {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotateY(360deg);
+    }
+}
