@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-import Button from "../components/Button/Button";
+import Button from "../components/Button";
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Welcome() {

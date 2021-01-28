@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/ProjectCard/ProjectCard";
+import Card from "../components/ProjectCard";
 // icons
 import jquery from "../assets/images/jquery.png";
 import python from "../assets/images/python.png";
@@ -30,7 +30,6 @@ import eventune4 from "../assets/images/eventune4.png";
 import theKeep1 from "../assets/images/theKeep1.png";
 import theKeep2 from "../assets/images/theKeep2.png";
 import theKeep3 from "../assets/images/theKeep3.png";
-
 // newMonday
 import newMonday1 from "../assets/images/newMonday1.png";
 import newMonday2 from "../assets/images/newMonday2.png";
@@ -38,7 +37,7 @@ import newMonday3 from "../assets/images/newMonday3.png";
 import newMonday4 from "../assets/images/newMonday4.png";
 import newMonday5 from "../assets/images/newMonday5.png";
 
-const Projects = (props) => {
+const Projects = () => {
 	//  project images
 	const images1 = [spotback1, spotback2, spotback3, spotback4];
 	const images2 = [cinebox1, cinebox2, cinebox3];

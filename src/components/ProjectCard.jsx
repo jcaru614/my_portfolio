@@ -1,7 +1,6 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import Slider from "react-slick";
-import "./projectCard.styles.css";
 
 const Card = (props) => {
 	const settings = {

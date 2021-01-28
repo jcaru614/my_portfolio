@@ -1,5 +1,5 @@
 import React from "react";
-import SkillBar from "./SkillBar";
+import SkillBar from "../components/SkillBar";
 import html from "../assets/images/html.png";
 import css from "../assets/images/css.png";
 import javascript from "../assets/images/javascript.png";

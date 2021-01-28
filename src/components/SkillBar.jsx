@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+
 const SkillBar = (props) => {
 	return (
 		<ScrollAnimation
