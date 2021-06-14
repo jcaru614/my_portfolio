@@ -1,33 +1,22 @@
-import React from "react";
-import Particles from "react-particles-js";
-import Button from "../components/Button";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import Particles from 'react-particles-js';
+import Button from '../components/Button';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-function Welcome() {
+const Welcome = () => {
 	return (
-		<div id="WelcomeContainer">
-			<ScrollAnimation
-				animateIn="fadeIn"
-				animateOut="fadeOut"
-				delay={700}
-				duration={4}
-			>
-				<h1 className="welcome">Welcome!</h1>
-				<h1 className="name">I'm Joey Caruana</h1>
+		<div id='WelcomeContainer'>
+			<ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' delay={700} duration={4}>
+				<h1 className='welcome'>Welcome!</h1>
+				<h1 className='name'>I'm Joey Caruana</h1>
 			</ScrollAnimation>
-			<a className="link" href="#about">
+			<a className='link' href='#about'>
 				<span>
-					<Button
-						link="#about"
-						title="Click Here!"
-						left="0px"
-						margin="0 5px"
-						padding="10px"
-					/>{" "}
-				</span>{" "}
-				<span className="text"> to learn more about me</span>
+					<Button link='#about' title='Click Here!' left='0px' margin='0 5px' padding='10px' />{' '}
+				</span>{' '}
+				<span className='text'> to learn more about me</span>
 			</a>
-			<div className="bg">
+			<div className='bg'>
 				<Particles
 					params={{
 						particles: {
@@ -51,19 +40,19 @@ function Welcome() {
 							move: {
 								random: true,
 								speed: 1,
-								direction: "bottom",
-								out_mode: "out",
+								direction: 'bottom',
+								out_mode: 'out',
 							},
 						},
 						interactivity: {
 							events: {
 								onhover: {
 									enable: true,
-									mode: "bubble",
+									mode: 'bubble',
 								},
 								onclick: {
 									enable: true,
-									mode: "repulse",
+									mode: 'repulse',
 								},
 							},
 							modes: {
@@ -84,6 +73,6 @@ function Welcome() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Welcome;

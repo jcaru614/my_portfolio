@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
-const Button = (props) => {
+const Button = ({ margin, padding, position, left, link, title }) => {
 	const btn = {
-		margin: props.margin,
-		padding: props.padding,
-		borderRadius: "10px",
-		border: "3px solid #FFBA08",
-		position: props.position,
-		bottom: "20px",
-		left: props.left,
-		textDecoration: "none",
+		margin: margin,
+		padding: padding,
+		borderRadius: '10px',
+		border: '3px solid #FFBA08',
+		position: position,
+		bottom: '20px',
+		left: left,
+		textDecoration: 'none',
 	};
 
 	return (
-		<a className="btn" style={btn} href={props.link}>
-			{props.title}
+		<a className='btn' style={btn} href={link}>
+			{title}
 		</a>
 	);
 };

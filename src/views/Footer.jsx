@@ -1,16 +1,16 @@
-import React from "react";
-import footer from "../assets/images/footer3.jpeg";
+import React from 'react';
+import footer from '../assets/images/footer3.jpeg';
 
-function Footer() {
-	const parent = {
-		height: "280px",
-		backgroundImage: `url(${footer})`,
-		backgroundSize: "cover",
-		backgroundRepeat: "no-repeat",
-		backgroundPosition: "center",
-	};
+const Footer = () => {
+	return <div className='thefooter' style={footerContainer} />;
+};
 
-	return <div className="thefooter" style={parent} />;
-}
+const footerContainer = {
+	height: '280px',
+	backgroundImage: `url(${footer})`,
+	backgroundSize: 'cover',
+	backgroundRepeat: 'no-repeat',
+	backgroundPosition: 'center',
+};
 
 export default Footer;
