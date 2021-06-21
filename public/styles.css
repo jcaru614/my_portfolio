@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 html {
@@ -19,12 +19,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
 	border: 2px solid white;
 	border-radius: 5px;
-	background: linear-gradient(
-		51deg,
-		rgba(26, 34, 47, 1) 32%,
-		rgba(102, 116, 139, 1) 73%,
-		rgba(87, 120, 172, 1) 100%
-	);
+	background: linear-gradient(51deg, rgba(26, 34, 47, 1) 32%, rgba(102, 116, 139, 1) 73%, rgba(87, 120, 172, 1) 100%);
 }
 
 h1,
@@ -33,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Ubuntu", sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -143,7 +138,7 @@ p {
 	height: 100px;
 	display: grid;
 	background-color: rgb(27, 35, 46);
-	grid-template-areas: "logo burger" "nav nav";
+	grid-template-areas: 'logo burger' 'nav nav';
 	z-index: 3;
 }
 
@@ -265,6 +260,42 @@ p {
 	margin: 10px 150px;
 	color: black;
 	padding: 10px;
+}
+
+.aboutCardImages {
+	padding: 5px;
+	border-radius: 10%;
+	background-color: #e5ecf4;
+	height: 80px;
+	margin-bottom: 10px;
+	z-index: -1;
+}
+
+.aboutCardView {
+	display: inline-block;
+	padding: 15px 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 230px;
+	height: 330px;
+	background-color: rgb(27, 35, 46);
+	border-radius: 40px 10px 40px 10px;
+	vertical-align: top;
+	text-align: center;
+	z-index: -1;
+	box-shadow: 20px 30px 20px rgb(138, 137, 137);
+}
+
+.aboutCardTextView {
+	font-size: 20px;
+	padding: 5px;
+	color: 'white';
+}
+
+.aboutNoExtraSpace {
+	padding: 0;
+	margin: 60px 5px 0;
+	display: inline-block;
 }
 
 /* SKILS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -449,6 +480,30 @@ p {
 	.abouth2 {
 		margin: 10px;
 		font-size: 20px;
+	}
+
+	.aboutCardView {
+		display: inline-block;
+		padding: 20px 2px 0;
+		margin: 15px;
+		width: 200px;
+		height: 310px;
+		background-color: rgb(27,35,46);
+		border-radius: 5px 40px 5px 40px;
+		vertical-align: top;
+		text-align: center;
+		z-index: -1;
+	}
+
+	.aboutCardTextView {
+		font-size: 16px;
+		padding: 5px;
+		color: white;
+	}
+
+	.aboutNoExtraSpace {
+		padding: 0;
+		display: inline-block;
 	}
 	/* skills */
 	#skills-container {
