@@ -11,6 +11,7 @@ const App = () => {
 	return (
 		<div className='appjs'>
 			<div>
+			<h1>test test test</h1>
 				<Header />
 				<Sidebar />
 			</div>
