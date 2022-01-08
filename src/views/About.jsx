@@ -10,8 +10,9 @@ const About = () => {
 		<div id='about'>
 			<h1>About</h1>
 			<h2 className='abouth2'>
-				I am a front end and mobile developer, with a passion for designing and developing applications with simplicity and functionality in
-				mind. I devote myself every day improving or learning something new.
+				I am a front end and mobile developer, with a passion for designing and developing applications with
+				simplicity and functionality in mind in order to create functional and responsive apps for a great
+				user experience. I devote myself every day to improving or learning something new.
 			</h2>
 			<AboutCard
 				img={hardworking}
