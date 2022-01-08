@@ -12,8 +12,8 @@ const Welcome = () => {
 			</ScrollAnimation>
 			<a className='link' href='#about'>
 				<span>
-					<Button link='#about' title='Click Here!' left='0px' margin='0 5px' padding='10px' />{' '}
-				</span>{' '}
+					<Button link='#about' title='Click Here!' left='0px' margin='0 5px' padding='10px' />
+				</span>
 				<span className='text'> to learn more about me</span>
 			</a>
 			<div className='bg'>
