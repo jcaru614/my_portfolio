@@ -61,6 +61,7 @@ const Projects = () => {
 				link='http://spotbackapp.com/'
 				icons={icons1}
 			/> */}
+			
 			<Card
 				title='NewMonday.com'
 				images={images5}
