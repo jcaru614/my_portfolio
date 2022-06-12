@@ -54,13 +54,13 @@ const Projects = () => {
 	return (
 		<div id='projects'>
 			<h1>Projects</h1>
-			<Card
+			{/* <Card
 				title='Spotback'
 				images={images1}
-				description='An IOS parking platform that matches users based on eta and distance to destination so that they arrive to the parked car simultaneously.'
+				description='A React Native parking platform that matches users based on eta and distance to destination so that they arrive to the parking space simultaneously.'
 				link='http://spotbackapp.com/'
 				icons={icons1}
-			/>
+			/> */}
 			<Card
 				title='NewMonday.com'
 				images={images5}
